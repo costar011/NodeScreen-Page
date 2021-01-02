@@ -1,34 +1,184 @@
 .screen {
   width: 100%;
+  height: 1350px;
 }
 
 .screen .screen__top .screen__top__up {
+  width: 100%;
   height: 70px;
 
-  background-color: aqua;
+  background-color: #a29bfe;
 }
 
 .screen .screen__top .screen__top__down {
+  width: 100%;
   height: 700px;
 
-  background-color: bisque;
+  background-color: #6c5ce7;
 }
 
 .screen .screen__main {
+  width: 100%;
+  height: 300px;
+
   display: flex;
   flex-direction: row;
 }
 
-.screen .screen__main__bottom {
-  width: 550px;
+.screen .screen__main .screen__main__left {
+  width: 50%;
   height: 300px;
 
-  background-color: teal;
+  background-color: #f6e58d;
 }
 
-.screen .screen__main .screen__main__bottom1 {
-  width: 900px;
+.screen .screen__main .screen__main__right .screen__main__right1 {
+  width: 780px;
   height: 150px;
 
-  background-color: tomato;
+  background-color: #ffbe76;
+}
+
+.screen .screen__main .screen__main__right .screen__main__right2 {
+  width: 780px;
+  height: 150px;
+
+  background-color: #f0932b;
+}
+
+.screen .screen__main__bottom {
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.screen .screen__main__bottom .screen__main__bottom1 {
+  width: 20%;
+  height: 150px;
+
+  background-color: #dff9fb;
+}
+
+.screen .screen__main__bottom .screen__main__bottom2 {
+  width: 20%;
+  height: 150px;
+
+  background-color: #c7ecee;
+}
+
+.screen .screen__main__bottom .screen__main__bottom3 {
+  width: 20%;
+  height: 150px;
+
+  background-color: #95afc0;
+}
+
+.screen .screen__main__bottom .screen__main__bottom4 {
+  width: 20%;
+  height: 150px;
+
+  background-color: #535c68;
+}
+
+.screen .screen__main__bottom .screen__main__bottom5 {
+  width: 20%;
+  height: 150px;
+
+  background-color: #badc58;
+}
+
+.screen .screen__bottom {
+  width: 100%;
+  height: 250px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.screen .screen__bottom .screen__bottom__bottom1 {
+  width: 20%;
+  height: 250px;
+
+  background-color: royalblue;
+}
+
+.screen .screen__bottom .screen__bottom__bottom2 {
+  width: 1350px;
+  height: 250px;
+
+  background-color: seagreen;
+}
+
+.screen .screen__bottom .screen__bottom__bottom3 {
+  width: 20%;
+  height: 250px;
+
+  background-color: brown;
+}
+
+.screen .screen__down {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.screen .screen__down .screen__down__1 {
+  width: 300px;
+  height: 100px;
+
+  background-color: blueviolet;
+}
+
+.screen .screen__down .screen__down__2 {
+  width: 1350px;
+  height: 100px;
+
+  background-color: forestgreen;
+}
+
+.screen .screen__down__bottom {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.screen .screen__down__bottom .screen__down__bottom1 {
+  width: 300px;
+  height: 110px;
+
+  background-color: fuchsia;
+}
+
+.screen .screen__down__bottom .screen__down__bottom2 {
+  width: 600px;
+  height: 110px;
+
+  background-color: sienna;
+}
+
+.screen .screen__down__bottom .screen__down__bottom3 {
+  width: 300px;
+  height: 110px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.screen .screen__down__bottom .screen__down__bottom3-1 {
+  width: 540px;
+  height: 60px;
+
+  background-color: skyblue;
+}
+
+.screen .screen__down__bottom .screen__down__bottom3-2 {
+  width: 540px;
+  height: 60px;
+
+  background-color: slateblue;
 }
